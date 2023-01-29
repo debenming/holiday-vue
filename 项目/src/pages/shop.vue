@@ -64,6 +64,7 @@ export default {
                 params: {
                     auth_id: '2211640303',
                     auth_code: 'zhoutinglong',
+                    sellBelong:this.$store.state.bigname
                 }
 
             }).then(value => {
@@ -85,6 +86,7 @@ export default {
                 params: {
                     auth_id: '2211640303',
                     auth_code: 'zhoutinglong',
+                    sellBelong:this.$store.state.bigname
                 }
 
             }).then(value => {

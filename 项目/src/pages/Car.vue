@@ -39,7 +39,7 @@
                             <el-input-number v-model="shoppingNum" :min="1" :max="100" label="购买数量" ></el-input-number>
                         </el-card>
 
-                        <el-button style="margin-top: 20px" @click="buy(message2)">购买</el-button>
+                        <el-button style="margin-top: 20px" @click="buy(message2),shan(m.id)">购买</el-button>
                         <el-button @click="mei()">关闭面板</el-button>
 
 
